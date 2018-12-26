@@ -1,0 +1,53 @@
+# -*- mode: org; fill-column: 79; -*-
+
+#+TITLE: Cryptography (I)
+#+AUTHOR: WLHarvey4
+
+#+SUBTITLE: Stanford --- Version {{{VERSION}}} {{{time(%F %R)}}}
+#+TEXINFO_FILENAME:cryptography.info
+#+TEXINFO_CLASS: info
+#+TEXINFO_HEADER:
+#+TEXINFO_POST_HEADER:
+#+SUBAUTHOR:
+#+TEXINFO_DIR_CATEGORY:Security
+#+TEXINFO_DIR_TITLE:Cryptography
+#+TEXINFO_DIR_DESC:Crtyptography from Stanford University
+
+#+LATEX_CLASS: report
+#+LATEX_CLASS_OPTIONS:
+#+LATEX_HEADER:
+#+LATEX_HEADER_EXTRA:\abstract{An abstract}
+#+DESCRIPTION:
+#+KEYWORDS:
+#+SUBTITLE:
+#+LATEX_COMPILER: pdflatex
+#+DATE: \today
+
+#+MACRO: VERSION 0.0.1
+
+# This material appears in the @Top node of the Info file only
+This is {{{title}}} Version {{{VERSION}}} last modified on {{{time(%F %R)}}}.
+
+In this course you will learn the inner workings of cryptographic systems and
+how to correctly use them in real-world applications.
+
+* About This Course
+
+#+BEGIN_EXPORT texinfo
+@iftex
+% This material appears in the printed version (PDF) of the Info file only
+In this course you will learn the inner workings of cryptographic systems and
+how to correctly use them in real-world applications.
+@end iftex
+#+END_EXPORT
+
+  Cryptography is an indispensable tool for protecting information in computer
+  systems.  The course begins with a detailed discussion of how two parties who
+  have a shared secret key can communicate securely when a powerful adversary
+  eavesdrops and tampers with traffic. We will examine many deployed protocols
+  and analyze mistakes in existing systems. The second half of the course
+  discusses public-key techniques that let two parties generate a shared secret
+  key. Throughout the course participants will be exposed to many exciting open
+  problems in the field and work on fun (optional) programming projects. In a
+  second course (Crypto II) we will cover more advanced cryptographic tasks
+  such as zero-knowledge, privacy mechanisms, and other forms of encryption.
