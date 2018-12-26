@@ -16,7 +16,7 @@
 #+LATEX_CLASS: report
 #+LATEX_CLASS_OPTIONS:
 #+LATEX_HEADER:
-#+LATEX_HEADER_EXTRA:\abstract{An abstract}
+#+LATEX_HEADER_EXTRA:
 #+DESCRIPTION:
 #+KEYWORDS:
 #+SUBTITLE:
@@ -25,21 +25,25 @@
 
 #+MACRO: VERSION 0.0.1
 
-# This material appears in the @Top node of the Info file only
-This is {{{title}}} Version {{{VERSION}}} last modified on {{{time(%F %R)}}}.
+# Place overall introduction into LaTeX Abstract
+#+BEGIN_EXPORT latex
+\abstract{In this course you will learn the inner workings of cryptographic
+systems and how to correctly use them in real-world applications.}
+#+END_EXPORT
 
+# Place Info introduction into @Top node
+#+BEGIN_EXPORT texinfo
 In this course you will learn the inner workings of cryptographic systems and
 how to correctly use them in real-world applications.
+#+END_EXPORT
 
 * About This Course
 
-#+BEGIN_EXPORT texinfo
-@iftex
-% This material appears in the printed version (PDF) of the Info file only
+# Place Texinfo PDF introduction into @iftex conditional block
+#+TEXINFO: @iftex
 In this course you will learn the inner workings of cryptographic systems and
 how to correctly use them in real-world applications.
-@end iftex
-#+END_EXPORT
+#+TEXINFO: @end iftex
 
   Cryptography is an indispensable tool for protecting information in computer
   systems.  The course begins with a detailed discussion of how two parties who
