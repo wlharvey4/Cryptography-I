@@ -6,7 +6,7 @@
 #+SUBTITLE: By Stanford University
 #+SUBTITLE: Version {{{VERSION}}} {{{time(%F %R)}}}
 
-#+MACRO: VERSION 0.0.4
+#+MACRO: VERSION 0.0.5
 #+STARTUP:hidestars
 
 #+TEXINFO_FILENAME:cryptography.info
@@ -62,7 +62,7 @@ how to correctly use them in real-world applications.
   discusses public-key techniques that let two parties generate a shared secret
   key.  Throughout the course participants will be exposed to many exciting
   open problems in the field and work on fun (optional) programming projects.
-  In a second course (Crypto II) we will cover more advanced cryptographic
+  In a second course ([[https://www.coursera.org/learn/crypto2][Crypto II]]) we will cover more advanced cryptographic
   tasks such as zero-knowledge, privacy mechanisms, and other forms of
   encryption.
 
@@ -86,6 +86,7 @@ how to correctly use them in real-world applications.
    Good luck as you get started, and I hope you enjoy the course!
 
    @@texinfo:@heading Instructor Biography@@
+   @@latex:\section*{Instructor Biography}@@
    Professor Dan Boneh heads the applied cryptography group at the Computer
    Science department at Stanford University.  Professor Boneh's research
    focuses on applications of cryptography to computer security.  His work
@@ -97,12 +98,13 @@ how to correctly use them in real-world applications.
    Ishii award for industry education innovation.  Professor Boneh received
    his Ph.D from Princeton University and joined Stanford in 1997.
 
-* Overview
+* Overview of Cryptography
   :PROPERTIES:
   :UNNUMBERED: t
   :END:
 
-  @@texinfo:@heading Week 1.@@
+  @@texinfo:@heading Week 1@@
+  @@latex:\section*{Week 1}@@
   This week's topic is an overview of what cryptography is about as well as our
   first example ciphers.
 ** Course Overview
