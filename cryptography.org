@@ -66,50 +66,43 @@ how to correctly use them in real-world applications.
   @@texinfo:@heading Week 1.@@
   This week's topic is an overview of what cryptography is about as well as our
   first example ciphers.
+** Course Overview
 
-** Videos
+** What is Cryptography
 
-*** Course Overview
+** History of Cryptography
 
-*** What is Cryptography
+* Discrete Probability Introduction
 
-*** History of Cryptography
+** Discrete Probability
 
-*** Discrete Probability
+** Discrete Probability Continued
 
-*** Discrete Probability Continued
+** Information Theoretic Security and The One Time Pad
 
-*** Information Theoretic Security and The One Time Pad
+** Lecture slides for all six weeks
 
-** Readings
-
-*** Lecture slides for all six weeks
-
-*** Course overview and additional reading resources
+** Course overview and additional reading resources
 
 * Stream Ciphers
   You will learn about pseudo-randomness and how to use it for encryption.  We
   will also look at a few basic definitions of secure encryption.
 
-** Videos
+** Stream Ciphers and Pseudo Random Generators
 
-*** Stream Ciphers and Pseudo Random Generators
+** Attacks on Stream Ciphers and The One Time Pad
 
-*** Attacks on Stream Ciphers and The One Time Pad
+** Real-World Stream Ciphers
 
-*** Real-World Stream Ciphers
+** PRG Security Definitions
 
-*** PRG Security Definitions
+** Semantic Security
 
-*** Semantic Security
+** Stream Ciphers are Semantically Secure
 
-*** Stream Ciphers are Semantically Secure
+** Week 1 --- Problem Set
 
-** Exercises
-
-*** Week 1 Problem Set
-
-*** Week 1 Programming Assignment
+** Week 1 --- Programming Assignment
 
 * Block Ciphers
 :CI:
@@ -126,6 +119,29 @@ how to correctly use them in real-world applications.
   integrity.  The optional programming assignment this week asks students to
   build an encryption/decryption system using AES.
 
+** What are Block Ciphers
+
+** The Data Encryption Standard
+
+** Exhaustive Search Attacks
+
+** More Attacks on Block Ciphers
+
+** The AES Block Cipher
+
+** Block Ciphers From PRGs
+
+** Review: PRPs and PRFs
+
+** Modes of Operation: One Time Key
+
+** Security for Many-Time Key --- CPA Security
+
+** Modes of Operation: Many Time Key --- CBC
+
+** Modes of Operation: Many Time Key --- CTR
+** Week 2 ---- Problem Set
+** Week 2 --- Programming Assignment
 * Message Integrity
 :CI:
 #+CINDEX: data integrity
@@ -142,6 +158,19 @@ how to correctly use them in real-world applications.
   read the project description --- it teaches an important concept called a
   hash chain.
 
+** Message Authentication Codes
+** MACs Based On PRFs
+** CBC-MAC and NMAC
+** MAC Padding
+** PMAC and the Carter-Wegman MAC
+** Introduction
+** Generic Birthday Attack
+** The Merkle-Damgard Paradigm
+** Constructing Compression Functions
+** HMAC
+** Timing attacks on MAC verification
+** Week 3 --- Problem Set
+** Week 3 --- Programming Assignment
 * Authenticated Encryption
 :CI:
 #+CINDEX: authenticated encryption
@@ -158,7 +187,20 @@ how to correctly use them in real-world applications.
   cryptography.  As usual there is also an extra credit programming project.
   This week's project involves a bit of networking to experiment with a chosen
   ciphertext attack on a toy web site.
-
+** Active Attacks on CPA-Secure Encryption
+** Definitions
+** Chosen Ciphertext Attacks
+** Constructions From Ciphers and MACs
+** Case Study --- TLS 1.2
+** CBC Padding Attacks
+** Attacking Non-Atomic Decryption
+** Key Derivation
+** Deterministic Encryption
+** Deterministic Encryption --- SIV and Wide PRP
+** Tweakable Encryption
+** Format Preserving Encryption
+** Week 4 --- Problem Set
+** Week 4 --- Programming Project
 * Basic Key Exchange
 :CI:
 #+CINDEX: key exchange
@@ -180,7 +222,18 @@ how to correctly use them in real-world applications.
   useful concepts from 20th century math.  Next week we will put our hard work
   from this week to good use and construct several public key encryption
   systems.
-
+** Trusted 3rd Parties
+** Merkle Puzzles
+** The Diffie-Hellman Protocol
+** Public-Key Encryption
+** Notation
+** Fermat and Euler
+** Modular e'th Roots
+** Arithmetic algorithms
+** Intractable Problems
+** More background on number theory
+** Week 5 --- Problem Set
+** Week 5 --- Programming Assignment
 * Public-Key Encryption
 :CI:
 #+CINDEX: public key encryption
@@ -208,7 +261,19 @@ how to correctly use them in real-world applications.
   topic with lots of open problems and room for further research.  I look
   forward to seeing you in Crypto II where we will cover additional core topics
   and a few more advanced topics.
-
+** Definitions and Security
+** Constructions
+** The RSA Trapdoor Permutation
+** PKCS 1
+** Is RSA a One-Way Function
+** RSA in Practice
+** The ElGamal Public-key System
+** ElGamal Security
+** ElGamal Variants With Better Security
+** A Unifying Theme
+** Farewell
+** Week 6 --- Problem Set
+** Week 6 --- Programming Assignment
 * Index
   :PROPERTIES:
   :INDEX:    cp
