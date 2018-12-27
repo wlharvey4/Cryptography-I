@@ -2,6 +2,9 @@
 
 #+TITLE: Cryptography I
 #+AUTHOR: WLHarvey4
+#+DATE: \today
+
+#+MACRO: VERSION 0.0.3
 
 #+SUBTITLE: Stanford --- Version {{{VERSION}}} {{{time(%F %R)}}}
 #+TEXINFO_FILENAME:cryptography.info
@@ -13,18 +16,15 @@
 #+TEXINFO_DIR_TITLE:Cryptography I
 #+TEXINFO_DIR_DESC:Learn about cryptographic systems
 
-#+LATEX_CLASS: report
+#+LATEX_CLASS: book
 #+LATEX_CLASS_OPTIONS:
 #+LATEX_HEADER:
 #+LATEX_HEADER_EXTRA:
 #+DESCRIPTION:Learn the inner workings of cryptographic systems and how to
 #+DESCRIPTION:correctly use them in real-world applications.
 #+KEYWORDS:Cryptography
-#+SUBTITLE:
 #+LATEX_COMPILER: pdflatex
-#+DATE: \today
 
-#+MACRO: VERSION 0.0.2
 
 # Place overall introduction into LaTeX Abstract
 #+BEGIN_EXPORT latex
@@ -39,6 +39,9 @@ how to correctly use them in real-world applications.
 #+END_EXPORT
 
 * About This Course
+  :PROPERTIES:
+  :UNNUMBERED: t
+  :END:
 :CI:
 #+CINDEX:cryptographic systems
 #+CINDEX:secret key
@@ -63,6 +66,9 @@ how to correctly use them in real-world applications.
   encryption.
 
 * Overview
+  :PROPERTIES:
+  :UNNUMBERED: t
+  :END:
   @@texinfo:@heading Week 1.@@
   This week's topic is an overview of what cryptography is about as well as our
   first example ciphers.
@@ -72,11 +78,14 @@ how to correctly use them in real-world applications.
 
 ** History of Cryptography
 
-* Discrete Probability Introduction
+** Discrete Probability Introduction
+   :PROPERTIES:
+   :UNNUMBERED: t
+   :END:
 
-** Discrete Probability
+*** Discrete Probability
 
-** Discrete Probability Continued
+*** Discrete Probability Continued
 
 ** Information Theoretic Security and The One Time Pad
 
@@ -85,6 +94,7 @@ how to correctly use them in real-world applications.
 ** Course overview and additional reading resources
 
 * Stream Ciphers
+  @@texinfo:@heading Week 1 Continued@@
   You will learn about pseudo-randomness and how to use it for encryption.  We
   will also look at a few basic definitions of secure encryption.
 
@@ -131,15 +141,15 @@ how to correctly use them in real-world applications.
 
 ** Block Ciphers From PRGs
 
-** Review: PRPs and PRFs
+** Review --- PRPs and PRFs
 
-** Modes of Operation: One Time Key
+** Modes of Operation --- One Time Key
 
 ** Security for Many-Time Key --- CPA Security
 
-** Modes of Operation: Many Time Key --- CBC
+** Modes of Operation --- Many Time Key -- CBC
 
-** Modes of Operation: Many Time Key --- CTR
+** Modes of Operation --- Many Time Key -- CTR
 ** Week 2 ---- Problem Set
 ** Week 2 --- Programming Assignment
 * Message Integrity
