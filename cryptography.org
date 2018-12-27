@@ -6,7 +6,7 @@
 #+SUBTITLE: By Stanford University
 #+SUBTITLE: Version {{{VERSION}}} {{{time(%F %R)}}}
 
-#+MACRO: VERSION 0.0.5
+#+MACRO: VERSION 0.0.6
 #+STARTUP:hidestars
 
 #+TEXINFO_FILENAME:cryptography.info
@@ -108,6 +108,33 @@ how to correctly use them in real-world applications.
   This week's topic is an overview of what cryptography is about as well as our
   first example ciphers.
 ** Course Overview
+*** Homework and Grading
+    - There will be a weekly problem set that includes an optional programming
+      component. Participants are expected to solve these assignments on their
+      own, but can discuss clarification questions on the course forum.
+    - Participants can attempt each of the problem sets three times every 8
+      hours. After each submission the system will provide explanations about
+      correct and incorrect answers. When participants attempt to solve the
+      problem set again, many of the questions will be different.
+    - The programming assignments are optional. Participants are free to use
+      any language of their choice to solve the programming assignments. Our
+      sample code will be given in Python although that code is not required to
+      complete these optional assignments.
+    - A passing grade be given to participants who obtain more than 80% of the
+      maximum score on the problem sets and final exam. The programming
+      assignments are optional.
+    - In-video quizzes are not graded and are only there to help participants
+      with self assessment.
+    - Many of the modules contain links to research papers for further
+      readings. These are intended for participants interested in learning more
+      about the material covered. These further readings are optional.
+    - There will be a final exam (no midterm) that is similar in style to the
+      problem sets, but covers the material of the entire course.
+
+*** Resources
+    - Background on discrete probability :: [[https://en.wikibooks.org/wiki/High_School_Mathematics_Extensions/Discrete_Probability][High School Mathematics Extensions/Discrete Probability]]
+    - A course in applied cryptography :: [[https://toc.cryptobook.us][A Graduate Course in Applied Cryptography]]
+    - Computational number theory :: [[http://shoup.net/ntb/ntb-v2.pdf][Computational Number Theory]]
 
 ** What is Cryptography
 
